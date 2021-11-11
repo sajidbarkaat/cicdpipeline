@@ -4,7 +4,8 @@
   "description": "This is for CI/CD Pipeline learning",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/sajidbarkaat/cicdpipeline/issues"
   },
-  "homepage": "https://github.com/sajidbarkaat/cicdpipeline#readme"
+  "homepage": "https://github.com/sajidbarkaat/cicdpipeline#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
